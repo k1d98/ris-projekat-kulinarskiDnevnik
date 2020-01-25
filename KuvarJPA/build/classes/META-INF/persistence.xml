@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="KuvarJPA">
+		<class>model.Category</class>
+		<class>model.Favourite_category</class>
+		<class>model.Favourite_categoryPK</class>
+		<class>model.Ingredient</class>
+		<class>model.Message</class>
+		<class>model.Picture</class>
+		<class>model.Recipe</class>
+		<class>model.Role</class>
+		<class>model.User</class>
+		<class>model.Contain</class>
+		<class>model.ExistIn</class>
+		<class>model.ExistInPK</class>
+		<class>model.IsFriend</class>
+	</persistence-unit>
+</persistence>
