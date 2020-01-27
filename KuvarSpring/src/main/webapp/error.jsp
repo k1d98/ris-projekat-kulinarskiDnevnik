@@ -11,11 +11,9 @@
 	<div class="background">
 
 		<div align="center" class="alert alert-danger" role="alert">
-			<h1>Login Error</h1>
+			<h1>Error</h1>
 			<br>
-			<h3>
-				Please, try to <a href="/Kuvar/login.jsp">Log in</a> again
-			</h3>
+			<h2>Go to <a href="/Kuvar/index.jsp">home page</a></h2>
 		</div>
 
 	</div>

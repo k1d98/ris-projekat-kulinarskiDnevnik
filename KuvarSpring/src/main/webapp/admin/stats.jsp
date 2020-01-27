@@ -21,6 +21,10 @@
 					</c:forEach>
 				</ul>
 			</c:if>
+			<h2>Report</h2>
+			<form action="/Kuvar/controller/admin/generateReportCat" method="post">
+			<input type="submit" value="generate">
+			</form>
 	<br><br>
 			<h3>Number of recipes per day</h3>
 			Choose date:

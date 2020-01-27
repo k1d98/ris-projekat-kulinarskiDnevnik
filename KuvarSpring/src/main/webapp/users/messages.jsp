@@ -850,7 +850,7 @@ Website: http://emilcarlsson.se/
 								
 									<div class="meta">
 									
-										<p class="name"><a href="Kuvar/controller/users/sendMessages?idUser=${s.idUser }">${p.username }</a></p>
+										<p class="name"><a href="/Kuvar/controller/users/sendMessages?idUser=${p.idUser }">${p.username }</a></p>
 										
 										<!-- 										<p class="preview">You just got LITT up, Mike.</p> -->
 									</div>

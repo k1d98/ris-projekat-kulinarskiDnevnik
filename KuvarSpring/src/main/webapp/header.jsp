@@ -32,19 +32,9 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<form class="form-inline" action="/Kuvar/controller/search"
-				method="get">
-				<div class="md-form my-0">
-					<input class="form-control mr-sm-2" name="search" type="text"
-						placeholder="Search" aria-label="Search">
-				</div>
-			</form>
-
-
 			<ul class="navbar-nav mr-auto" id="n">
+			<li class="nav-item"><a class="nav-link" href="/Kuvar/controller/search">Search</a></li>
 			<li class="nav-item"><a class="nav-link" href="/Kuvar/controller/allRecepts">All recipes</a></li>
-				
-
 			</ul>
 			<!-- Search form -->
 

@@ -45,7 +45,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	   antMatchers("/users/**","/controller/users/**").hasAnyRole("admin","user"). 
 	   and().formLogin().
 	   loginPage("/login.jsp").
-	   loginProcessingUrl("/login").failureForwardUrl("/login_error.jsp").
+	   loginProcessingUrl("/login").failureForwardUrl("/error.jsp").
 	   defaultSuccessUrl("/index.jsp").and().
 	   logout().invalidateHttpSession(true)
 	   .logoutSuccessUrl("/login.jsp").and().
